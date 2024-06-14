@@ -85,6 +85,9 @@ if (game == "O") {
             break
         }
     }
+
+
+    
 } else {
     console.log("T'abuuuuses");
 }
