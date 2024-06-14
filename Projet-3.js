@@ -8,17 +8,17 @@ let attaques = [
     {
         name: "Soin léger",
         puissance: -15,
-        precision: 1,
+        precision: 2,
     },
     {
         name: "Coup puissant",
         puissance: 20,
-        precision: 1,
+        precision: 2,
     },
     {
         name: "Frappe Dévastatrice",
         puissance: 30,
-        precision: 1,
+        precision: 3,
     },
 ]
 let playerOne =
@@ -85,9 +85,6 @@ if (game == "O") {
             break
         }
     }
-
-
-    
 } else {
     console.log("T'abuuuuses");
 }
